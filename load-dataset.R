@@ -1,4 +1,4 @@
-## Donwloading the dataset
+## Donwload the dataset
 
 hpc.url <- "http://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
 hpc.zip <- basename(hpc.url)
@@ -10,7 +10,7 @@ if ( !(file.exists(hpc.txt) | file.exists(hpc.zip)) )
 if (!file.exists(hpc.txt))
     unzip(hpc.zip)
 
-## Loading necessary part of the dataset
+## Load the necessary part of the dataset
 
 SKIP.NROWS <- 66637
 READ.NROWS <- 2880
