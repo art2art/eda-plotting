@@ -40,3 +40,5 @@ web site</a>:
 or (only for Linux and MacOS):
 
 `$ ./all.R`
+
+All plots are stored in `./figure` folder.
