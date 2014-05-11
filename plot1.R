@@ -1,7 +1,7 @@
 if (!exists("hpc"))
     source("load-dataset.R")
 
-png(filename = "plot1.png", bg = "transparent")
+png(filename = "figure/plot1.png", bg = "transparent")
 hist(hpc$Global_active_power,
      main = "Global Active Power",
      xlab = "Global Active Power (kilowatts)",

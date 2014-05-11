@@ -1,7 +1,7 @@
 if (!exists("hpc"))
     source("load-dataset.R")
 
-png(filename = "plot2.png", bg = "transparent")
+png(filename = "figure/plot2.png", bg = "transparent")
 attach(hpc)
 
 plot(Time, Global_active_power,

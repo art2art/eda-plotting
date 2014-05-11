@@ -1,7 +1,7 @@
 if (!exists("hpc"))
     source("load-dataset.R")
 
-png(filename = "plot4.png", bg = "transparent")
+png(filename = "figure/plot4.png", bg = "transparent")
 attach(hpc)
 
 par(mfrow = c(2, 2))

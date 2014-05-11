@@ -1,7 +1,7 @@
 if (!exists("hpc"))
     source("load-dataset.R")
 
-png(filename = "plot3.png", bg = "transparent")
+png(filename = "figure/plot3.png", bg = "transparent")
 attach(hpc)
 
 plot(Time, Sub_metering_1, type = "n", ylab = "Energy sub metering", xlab = "")
