@@ -1,4 +1,4 @@
-## Donwload the dataset
+## Download the dataset
 
 hpc.url <- "http://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
 hpc.zip <- basename(hpc.url)
